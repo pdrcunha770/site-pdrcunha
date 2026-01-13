@@ -1,0 +1,287 @@
+
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Diretório de Restaurantes</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+    }
+
+    header {
+      background: #0284c7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #0284c7;
+    }
+
+    .imagem-restaurante {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+      margin: 10px 0 20px 0;
+      display: block;
+    }
+
+    /* IMAGEM MENOR DO BIFE */
+    .imagem-bife {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	
+	 /* IMAGEM MENOR DO ARROZ */
+    .imagem-arroz {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DO MOUSSE */
+    .imagem-mousse {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DA LASANHA */
+    .imagem-lasanha {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DO STROGONOFF */
+    .imagem-strogonoff {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DO DOURADO */
+    .imagem-dourado {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DO RISOTTO */
+    .imagem-risotto {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DA TARTE */
+    .imagem-tarte {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+	 /* IMAGEM MENOR DA SALADA*/
+    .imagem-salada {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+    }
+
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background: #e0f2fe;
+    }
+
+    a {
+      color: #0284c7;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body id="topo">
+
+<header>
+  <h1>Diretório de Restaurantes</h1>
+  <p>Lista de restaurantes com contactos, horários e menus</p>
+</header>
+
+<main>
+
+  <h2>🍽️ Restaurantes Disponíveis</h2>
+  <ul>
+    <li><a href="#praca">Restaurante da Praça</a></li>
+    <li><a href="#rio">Sol Brasil</a></li>
+    <li><a href="#mar">Mar & Terra</a></li>
+  </ul>
+
+  <hr>
+
+  <!-- RESTAURANTE 1 -->
+  <section id="praca">
+    <h2>Restaurante da Praça</h2>
+    <img src="da praca.jpg" alt="Restaurante da Praça" class="imagem-restaurante">
+
+    <p><strong>Endereço:</strong> Rua Central 10, Lisboa</p>
+
+    <p>
+      📞 <a href="tel:210991792">210 991 792</a><br>
+      ✉️ <a href="mailto:contacto@pracarestaurante.pt">contacto@pracarestaurante.pt</a><br>
+      📍 <a href="https://www.google.com/maps?q=38.71667,-9.1399" target="_blank">
+        Ver no Google Maps
+      </a>
+    </p>
+
+    <h3>Horário de Funcionamento</h3>
+    <table>
+      <tr><th>Dia</th><th>Horário</th></tr>
+      <tr><td>Segunda a Sexta</td><td>12:00 - 22:00</td></tr>
+      <tr><td>Sábado</td><td>12:00 - 01:00</td></tr>
+      <tr><td>Domingo</td><td>Encerrado</td></tr>
+    </table>
+
+    <h3>Menu</h3>
+    <ul>
+      <h4>Salada mista</h4>
+	   <img src="salada.jpg" alt="Salada Mista" class="imagem-salada"> 
+      <h4>Risotto de cogumelos</h4>
+	   <img src="risotto.jpg" alt="Risotto de Cogumelos" class="imagem-risotto"> 
+      <h4>Tarte de amêndoa</h4>
+	   <img src="tarte.jpg" alt="Tarte de amêndoa" class="imagem-tarte"> 
+    </ul>
+
+    <a href="#topo">⬆ Voltar ao topo</a>
+  </section>
+
+  <hr>
+
+  <!-- RESTAURANTE 2 -->
+  <section id="rio">
+    <h2>Sol Brasil</h2>
+    <img src="sol brasil.jpg" alt="Sol Brasil" class="imagem-restaurante">
+
+    <p><strong>Endereço:</strong> Avenida do Rio 33, Lisboa</p>
+
+    <p>
+      📞 <a href="tel:218870946">218 870 946</a><br>
+      ✉️ <a href="mailto:contacto@solbrasil.pt">contacto@solbrasil.pt</a><br>
+      📍 <a href="https://www.google.com/maps?q=38.7071,-9.1355" target="_blank">
+        Ver no Google Maps
+      </a>
+    </p>
+
+    <h3>Horário de Funcionamento</h3>
+    <table>
+      <tr><th>Dia</th><th>Horário</th></tr>
+      <tr><td>Segunda a Sexta</td><td>12:00 - 22:00</td></tr>
+      <tr><td>Sábado</td><td>12:00 - 01:00</td></tr>
+      <tr><td>Domingo</td><td>Encerrado</td></tr>
+    </table>
+
+    <h3>Especialidades</h3>
+    <ol>
+      <h4>Dourada grelhada</h4>
+	  <img src="dourado.png" alt="Dourado Grelhado" class="imagem-dourado"> 
+      <h4>Strogonoff de Frango</h4>
+	    <img src="strogonoff.jpg" alt="Strogonoff de Frango" class="imagem-strogonoff"> 
+      <h4>Lasanha</h4>
+	   <img src="lasanha.jpg" alt="Lasanha" class="imagem-lasanha"> 
+    </ol>
+
+    <a href="#topo">⬆ Voltar ao topo</a>
+  </section>
+
+  <hr>
+
+  <!-- RESTAURANTE 3 -->
+  <section id="mar">
+    <h2>Mar & Terra</h2>
+    <img src="mar e terra.jpg" alt="Mar & Terra" class="imagem-restaurante">
+
+    <p><strong>Endereço:</strong> Largo do Mercado 5, Lisboa</p>
+
+    <p>
+      📞 <a href="tel:213456789">213 456 789</a><br>
+      ✉️ <a href="mailto:contacto@mareterra.pt">contacto@mareterra.pt</a><br>
+      📍 <a href="https://www.google.com/maps?q=38.7149,-9.1451" target="_blank">
+        Ver no Google Maps
+      </a>
+    </p>
+
+    <h3>Horário de Funcionamento</h3>
+    <table>
+      <tr><th>Dia</th><th>Horário</th></tr>
+      <tr><td>Segunda a Sexta</td><td>11:30 - 22:30</td></tr>
+      <tr><td>Sábado</td><td>12:00 - 23:30</td></tr>
+      <tr><td>Domingo</td><td>12:00 - 18:00</td></tr>
+    </table>
+
+    <h3>Menu</h3>
+    <h4>Bife à portuguesa</h4>
+    <img src="bife.jpg" alt="Bife à portuguesa" class="imagem-bife"> 
+    <ul>
+    <h4>Arroz de marisco</h4>
+	<img src="arroz.jpg" alt="Arroz de marisco" class="imagem-arroz"> 
+      <h4>Mousse de chocolate</h4>
+	  <img src="mousse.jpg" alt="Mousse de Chocolate" class="imagem-mousse"> 
+    </ul>
+
+    <a href="#topo">⬆ Voltar ao topo</a>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 – Diretório de Restaurantes</p>
+</footer>
+
+</body>
+</html>
